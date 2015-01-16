@@ -1,0 +1,15 @@
+{
+  "name": "stubserver",
+  "version": "1.0.0",
+  "description": "Fast stub server for developing",
+  "main": "app.js",
+  "author": "alberto.casado@fundingcircle.com",
+  "scripts": {
+    "postinstall": "bower install",
+    "bower": "bower"
+  },
+  "dependencies": {
+    "restify": "2.8.4",
+    "node-curl": "^0.3.3"
+  }
+}
